@@ -1,0 +1,60 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding: 0px;
+    margin:0px;
+}
+body{
+    background-color: hsl(30, 38%, 92%) ;
+}
+.container{
+    position: relative;
+    max-width: 57em;
+    max-height: 46em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.container img{
+    max-height: 46em;
+    max-width: 28.5em;
+}
+.rightbox{
+
+    border: solid;
+    justify-content: space-around;
+    align-items: start;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3.2em;
+}
+.rightbox .perfume{
+
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    min-width: 32%;
+    font-size: 14px;
+    letter-spacing: 10px;
+    margin-bottom: -60px;
+
+}
+.rightbox .title{
+    font-family:'Fraunces', serif; ;
+    font-weight: 700;
+    color:hsl(212, 21%, 14%);
+    font-size: 45px;
+    /* max-height: 4em; */
+    max-width: 81%;
+    /* border: solid; */
+}
+.rightbox .para{
+    color: hsl(228, 12%, 48%);
+    margin-top: -40px;
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 78%;
+    font-weight: 700;
+    min-height: 9em;
+    line-height: 2em;
+}
