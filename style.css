@@ -8,20 +8,18 @@ body{
 }
 .container{
     position: relative;
-    max-width: 57em;
-    max-height: 46em;
+    max-width: 50em;
+    max-height: 40em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border-radius: 25px;
+    border-radius: 20px;
     overflow: hidden;
 }
 .container img{
     max-height: 46em;
-    max-width: 28.5em;
+    max-width: 25em;
 }
 .rightbox{
-
-    border: solid;
     justify-content: space-around;
     align-items: start;
     background-color: white;
@@ -54,7 +52,42 @@ body{
     font-size: 19px;
     font-family: 'Montserrat', sans-serif;
     max-width: 78%;
-    font-weight: 700;
+    font-weight: 500;
     min-height: 9em;
-    line-height: 2em;
+    line-height: 1.5em;
+}
+.pricing{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 60%;
+    margin-top: -90px;
+    font-family:'Fraunces', serif; ;
+
+}
+.pricing h1{
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+
+}
+.pricing p{
+    color:hsl(228, 12%, 48%);
+}
+button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    min-width: 79%;
+    margin-top: -60px;
+    padding: 17px;
+    border: none;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    background-color:  hsl(158, 36%, 37%);
+    color: white;
+
+
+
 }
