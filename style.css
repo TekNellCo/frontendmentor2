@@ -5,6 +5,9 @@
 }
 body{
     background-color: hsl(30, 38%, 92%) ;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
 }
 .container{
     position: relative;
